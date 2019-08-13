@@ -1,0 +1,64 @@
+/*1.  Selection Sheet Indicators*/
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    width : 100vw;  /* 100 percent of the pantalla*/
+    height: 25Vh;  /* view per height*/
+    background-color: lightsalmon;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 50%;
+    display: inline;
+    top: 50%;
+}
+
+#aboutme {
+    width: 100vw;
+    height: 25vh;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+#aboutme h2 {
+    position: absolute;
+    top: 85%;
+}
+#fun {
+    width: 100vw;
+    height: 25vh;
+    background-color: cornsilk;
+    position: relative;
+}
+
+#fun h2 {
+    position: absolute;
+    left: 93%;
+}
+
+#contacto {
+    width: 100vw;
+    height: 25vh;
+    background-color: lavender;
+    position: relative;
+}
+
+#contacto h2 {
+    position: absolute;
+    left: 47%;
+    top: 47%;
+
+}
+
